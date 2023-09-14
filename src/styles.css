@@ -1,0 +1,9 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.custom-border,
+.custom-row {
+  border: 1px solid red;
+}
