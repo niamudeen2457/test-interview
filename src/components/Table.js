@@ -22,8 +22,8 @@ const Table = () => {
         <table className="custom-border">
           <thead>
             <tr>
-              <th>key</th>
-              <th>item</th>
+              <th>category</th>
+              <th>link</th>
             </tr>
           </thead>
           <tbody>
