@@ -2,8 +2,14 @@
   font-family: sans-serif;
   text-align: center;
 }
+.table-section {
+  display: flex;
+  justify-content: center;
+}
+.table-section thead {
+  background-color: red;
+}
 
-.custom-border,
-.custom-row {
-  border: 1px solid red;
+tbody {
+  background-color: rgb(124, 180, 243);
 }

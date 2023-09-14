@@ -18,9 +18,9 @@ const Table = () => {
   return (
     <div>
       <h1>Table {length}</h1>
-      <div>
+      <div className="table-section">
         <table className="custom-border">
-          <thead style={{ backgroundColor: "yellow" }}>
+          <thead>
             <tr>
               <th>key</th>
               <th>item</th>
@@ -38,7 +38,7 @@ const Table = () => {
                             display: "flex",
                             flexDirection: "column",
                             marginBottom: "20px",
-                            cursor: "pointer"
+                            cursor: "pointer",
                           }}
                         >
                           {item}
@@ -55,7 +55,7 @@ const Table = () => {
                           style={{
                             display: "flex",
                             flexDirection: "column",
-                            marginBottom: "20px"
+                            marginBottom: "20px",
                           }}
                         >
                           {listObj[item]}
